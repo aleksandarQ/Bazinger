@@ -1,0 +1,260 @@
+@media only screen and (max-width: 1370px) {
+    section#header {
+        height: 550px;
+    }
+
+    .navBar ul {
+        margin-right: 50px;
+    }
+
+    .navBar ul a {
+        font-size: 14px;
+    }
+
+    .logo img {
+        padding: 20px 0px 0px 60px
+    }
+
+    .featuresCircle {
+        font-size: 55px;
+    }
+
+    .featuresCircle i {  
+        padding-top: 25px;
+        height: 75px;
+        width: 100px;
+        border-radius: 100px;
+    }
+
+    .featuresBox h1 {
+        font-size: 18px;
+    }
+
+    .featuresBox {
+        height: 100%;
+    }
+      
+    section#footer .textArea {
+        top: 60%;
+    }
+
+    section#footer .textArea h1 {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }      
+}
+
+@media only screen and (max-width: 1024px) {
+    section#header {
+        height: 400px;
+    }
+
+    .navBar {
+        display: none;
+    }
+
+    .dropDown {
+        visibility: visible;
+        float: right;
+        padding-right: 30px;
+    }
+
+    .logo img {
+        padding: 10px 0px 0px 30px
+    }
+
+    .header {
+        height: 80px;
+    }
+
+    .dropDownContent a {
+        padding: 10px 0;
+    }
+
+    .navBar ul {
+        margin-right: 20px;
+        padding-top: 15px;
+    }
+      
+    section#footer .textArea {
+        top: 60%;
+    }
+
+    section#footer .textArea h1 {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }      
+}
+
+@media only screen and (max-width: 960px) {
+    .logo img {
+        width: 100px;
+    }
+
+    .logo img {
+        padding: 20px 0px 0px 20px;
+    }
+
+    .navBar li {
+        margin: 0 5px;
+    }
+
+    .dropDownContent a {
+        padding: 10px 0;
+    }
+
+    .featuresBox {
+        width: 46%;
+        height: 100%;
+    }
+
+    .featuresBox h1 {
+        font-size: 15px;
+        height: 20px;
+    }
+
+    .featuresBox p {
+        text-align: auto;
+    }
+
+    .featuresCircle {
+        padding: 20px 10%;
+        font-size: 50px;
+    }
+
+    .textArea h1 {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .textArea p {
+        font-size: 18px;
+    }
+      
+    section#footer .textArea {
+        top: 50%;
+    }
+
+    section#footer .textArea h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    } 
+    
+    section#footer .textArea p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    section#header {
+        height: 250px; 
+    }
+
+    .header {
+        height: 50px;
+    }
+
+    .featuresCircle {
+        padding: 10px 20%;
+        font-size: 35px;
+    }
+
+    .featuresBox {
+        width: 44%;
+        margin: 10px 3%;
+        padding-top: 10px;
+        height: 235px;
+    }
+
+    .featuresCircle i {
+        padding-top: 15px;
+        height: 50px;
+        width: 67px;
+    }
+
+    .featuresBox p {
+        font-size: 13px;
+    }
+
+    .logo img {
+        padding: 10px 0px 0px 20px;
+    }
+
+    .dropDown .dropbtn {
+        padding: 16px 10px 0 0;
+    }
+
+    .dropDownContent a {
+        padding: 5px 0;
+    }
+
+    section#gallery .featuresBox {
+        height: 275px;
+    }
+      
+    section#footer .textArea {
+        top: 60%;
+        width: 100%;
+    }
+
+    section#footer .textArea h1 {
+        padding-left: 25%;
+        width: 100%;
+    } 
+    
+    section#footer .textArea p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 432px) {
+    section#header {
+        height: 185px; 
+    }
+
+    .logo img {
+        padding: 10px 0px 0px 10px;
+        width: 60px;
+    }
+
+    .featuresBox {
+        height: 100%;
+        padding-top: 0px;
+    }
+
+    .dropDownContent ul {
+        margin: 0;
+    }
+
+    .dropDownContent a {
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    .textArea h1 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .textArea p {
+        font-size: 14px;
+    }
+
+    .featuresCircle {
+        padding: 5px 20%;
+    }
+
+    section#gallery .featuresBox {
+        height: 100%;
+    }
+      
+    section#footer .textArea {
+        top: 60%;
+        width: 100%;
+    }
+
+    section#footer .textArea h1 {
+        padding-left: 25%;
+        width: 100%;
+    }
+}

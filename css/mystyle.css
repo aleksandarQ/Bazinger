@@ -1,0 +1,276 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poiret One', cursive;
+}
+
+/* NavBar */
+    
+section#header {
+  background-image: url(../images/header-bg.png);
+	width: 100%;
+	height: 791px;
+	background-position: center center;
+  background-size: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.logo img {
+  padding: 20px 0px 0px 100px
+}
+
+.navBar li {
+	display: inline;
+}
+
+.navBar ul {
+  float: right;
+  padding-top: 12px; 
+  margin-right: 20px;
+}
+
+.navBar ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navBar ul a:hover {
+  color: #4bcaff;
+  transition: color 0.5s ease
+}
+
+.dropDownContent a:hover {
+  color: #4bcaff;
+  transition: color 0.5s ease
+}
+
+.dropDown {
+  visibility: hidden;
+  position: relative;
+}
+
+.navBar {
+  overflow: hidden;
+  background-color: #333;
+}
+  
+.navBar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+.dropDown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 30px 10px 0 0;
+  background-color: inherit;
+  margin: 0;
+}
+  
+.navBar a:hover, .dropDown:hover .dropbtn, .dropbtn:focus {
+  background-color: transparent;
+}
+  
+.dropDownContent {
+  display: none;
+  position: absolute;
+  background-color: black;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 0 18px;
+  z-index: 1;
+  position: absolute;
+  right: 10px;
+}
+  
+.dropDownContent a {
+  float: none;
+  color: white;
+  padding: 12px 0px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}  
+
+.dropDownContent ul {
+  padding: 0;
+}
+
+.show {
+  display: block;
+}
+
+/* NavBar End */
+
+/* Features */
+
+section#features {
+  padding: 0 10%;
+  text-align: center;
+  border-bottom: 2px solid #ececec;
+  overflow: hidden;
+}
+
+.features {
+  display: block;
+}
+
+.textArea h1 {
+  margin-bottom: 2px;
+  font-size: 40px;
+}
+
+section#features .textArea p {
+  margin: 2px;
+  font-size: 22px;
+  color: gray;
+}
+
+.featuresBox {
+  width: 23%;
+  float: left;
+  height: 400px;
+  margin: 15px 1%;
+}
+
+.featuresCircle {
+  padding: 20px 20%;
+  font-size: 80px;
+}
+
+.featuresCircle i {
+  color: white;
+  background-color: #4bcaff;
+  padding-top: 30px;
+  height: 105px;
+  width: 135px;
+  border-radius: 100px;
+}
+
+.featuresBox p {
+  color: gray;
+}
+
+.featuresBox:hover .featuresCircle i {
+  background-color: black;
+  transition: background-color 0.5s ease
+}
+
+.featuresBox:hover h1 {
+  color: #4bcaff;
+  transition: color 0.5s ease
+}
+
+/* Features End */
+
+/* Gallery */
+
+section#gallery {
+  padding: 0 10%;
+  text-align: center;
+  border-bottom: 2px solid #ececec;
+  overflow: hidden;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+section#gallery .galleryImage {
+  margin: 0 auto;
+}
+
+.galleryImage {
+  height: 200px;
+  width: 270px;
+  background-image: url(../images/gallery.png);
+  border-radius: 10px;
+}
+
+.galleryImage:hover {
+  background-image: url(../images/gallery.png);
+  background-color: #4bcaff;
+  background-blend-mode: multiply;
+  transition: background-color 0.5s ease
+}
+
+.galleryImage:hover .caption {
+  background-color: black;
+  z-index: 20;
+}
+
+.caption {
+  position: relative;
+}
+
+.caption p {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  background-color: black;
+  padding: 10px 0;
+  margin: 0px;
+  opacity: 0.5;
+  color: #4bcaff;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+/* Gallery End */
+
+/* Footer */
+
+section#footer {
+  background-color: #4bcaff;
+  position: relative;
+}
+
+section#footer .responsive {
+  opacity: 0.5;
+}
+
+section#footer .textArea {
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+}
+
+section#footer .textArea h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Footer End */
+
