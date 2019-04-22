@@ -205,12 +205,8 @@ section#gallery .galleryImage {
   background-image: url(../images/gallery.png);
   background-color: #4bcaff;
   background-blend-mode: multiply;
-  transition: background-color 0.5s ease
-}
-
-.galleryImage:hover .caption {
-  background-color: black;
-  z-index: 20;
+  transition: background-color 0.5s ease;
+  cursor: crosshair;
 }
 
 .caption {
